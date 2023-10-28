@@ -1,0 +1,151 @@
+:root
+{
+    --bg-barra: #2C587C;
+    --bg-barra2:  #009;
+}
+.w-100
+{
+    width: 100%;
+}
+.w-300px
+{
+    width: 400px;
+    height: 80px;
+    text-align: center;
+    background-color: rgb(158, 158, 179);
+    border: 2px solid #fff;
+    box-shadow:  5px  5px  5px #fff,                -2px -2px  3px #fff;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    color: #000;
+}
+
+#boton:hover
+{
+    background-color: rgb(73, 73, 83);
+    border: 2px solid #000;
+    box-shadow:  5px  5px  5px #222222,                -2px -2px  3px #333333;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s ease;
+    -webkit-transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -ms-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+}
+
+.h-150
+{
+    height: 150px;
+}
+
+.h-100vh
+{
+    height: 100vh;
+    width: 100%;
+}
+.bgcolor-azul
+{
+    background-color: var(--bg-barra);
+}
+.centrado
+{
+    text-align: center;
+}
+
+.flex
+{
+    display: flex;
+}
+.flex-center
+{
+    align-items: center;
+    justify-content: center;
+}
+
+.between
+{
+    justify-content: space-between;
+}
+.padding50
+{
+    padding: 50px auto;
+}
+.items-center
+{
+    align-self: center;
+}
+#menu img
+{
+    width: 20%;
+    height: 70%;
+    margin-left: 20px;
+}
+
+h1.fsize2
+{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 100px;
+    letter-spacing: 2px;
+}
+p.padding-derecha-10-20
+{
+    padding: 10px 20px;
+}
+.margin-derecha-50
+{
+    margin-right: 50px;
+}
+
+.color-blanco
+{
+    color: #fff;
+}
+
+p.fsize1
+{
+    font-size: 1.5em;
+}
+
+.parrafo-acceso
+{
+    text-transform: uppercase;
+    font-family: Consolas, Arial, Sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.parrafo-acceso:hover ~ #boton a p
+{
+    color: #f9f262;
+}
+
+#boton
+{
+    display: block;
+}
+
+#boton a
+{
+    text-decoration: none;
+    color: #000;
+}
+
+#boton a:hover
+{
+    color: #fff;
+}
+#menu p a:hover
+{
+    color: #f9f262;
+}
+/* .pagination
+{
+    float: left;
+    background-color: #9fea2f;
+} */
